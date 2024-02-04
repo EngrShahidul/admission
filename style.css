@@ -1,0 +1,87 @@
+/* h1{
+    text-align: center;
+    font-family: arial;
+    background-color: aqua;
+    font-size: 50px;
+    color: #ffffff;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: arial;
+} */
+/* table,td{
+    border: 1px solid;
+}
+*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+input[type="text"], input[type="email"],input[type="date"] {
+    padding: 10px 90px;
+    padding-left: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 0px;
+}
+input[type="text"], input[type="email"],input[type="date"],select:focus{
+    outline-color: aqua;
+}
+
+input[type="date"] {
+    padding-right: 145px;
+}
+
+input[type="radio"] {
+    padding: 0px;
+    margin-left: 15px;
+}
+
+select {
+    padding: 10px 90px;
+    margin-left: 14px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+input[type="submit"] {
+    background: #00ff897a;
+    padding: 14px 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 17px;
+    font-family: arial;
+    transition: .3s;
+    cursor: pointer;
+}
+.wrp {
+    width: 55%;
+    margin: auto;
+    background: #00e7ffba;
+    padding-bottom: 103px;
+    padding-top: 133px;
+    padding-left: 100px;
+}
+.raaper {
+    background: #025168e6;
+    height: 953px;
+}
+
+td {
+    color: #fff;
+    font-size: 17px;
+    font-family: arial;
+}
+tr.ss td {
+    text-align: center;
+}
+input[type="submit"]:hover {
+    background: #00ff8900;
+    border: 1px solid #00ff89;
+}

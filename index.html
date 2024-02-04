@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <title>My Project</title>
+    <style>
+        body{
+    margin: 0px;
+    padding: 0px;
+}
+
+input[type="text"], input[type="email"],input[type="date"] {
+    padding: 10px 90px;
+    padding-left: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 0px;
+}
+input[type="text"], input[type="email"],input[type="date"],select:focus{
+    outline-color: aqua;
+}
+
+input[type="date"] {
+    padding-right: 145px;
+}
+
+input[type="radio"] {
+    padding: 0px;
+    margin-left: 15px;
+}
+
+select {
+    padding: 10px 90px;
+    margin-left: 14px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+input[type="submit"] {
+    background: #3700ff8c;
+    padding: 14px 30px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 40px;
+    color: #ffffff67;
+    font-size: 17px;
+    font-family: arial;
+    transition: .3s;
+    cursor: pointer;
+}
+.wrp {
+    width: 55%;
+    margin: auto;
+    background: #00ff225b;
+    padding-bottom: 103px;
+    padding-top: 133px;
+    padding-left: 100px;
+}
+.raaper {
+    background: #02684177;
+    height: 953px;
+}
+
+td {
+    color: #38050577;
+    font-size: 17px;
+    font-family: arial;
+}
+tr.ss td {
+    text-align: center;
+}
+input[type="submit"]:hover {
+    background: #006eff36;
+    border: 1px solid #001aff62;
+}
+    </style>
+</head>
+<body>
+    <!-- <h1>We are learning HTML</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi at, alias sit quas, libero eaque, ex ipsum officiis temporibus atque recusandae aut? Velit laboriosam nam, sed tenetur et ipsa expedita, ipsum corrupti a esse recusandae provident obcaecati? Voluptatum possimus perferendis architecto, repellendus consectetur sapiente tempore, quod quas culpa quos ad!</p>
+    <a href="./img/webcom-website-builder-templates.png" target="_blank" download="./img/webcom-website-builder-templates.png">Go to Google</a> -->
+    <!-- <img src="./img/free-website-builder.png" alt="png">
+
+    <video src="../img/pexels_videos_4409 (1080p).mp4" width="400px" controls></video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NgrljB7UU34?si=gOJORuFK7HJDzxTR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br><br><br> -->
+
+
+        <!-- <form action="">
+            <h1>School Admission Form</h1>
+            <label for="">Student Name *</label>
+            <input type="text" placeholder="First">
+            <input type="text" placeholder="Last"><br><br>
+            <label for=""><b>Class you want to <br> apply for*</b></label> <input type="text" style="padding: 0px 60px; margin-left: 120px;"> <br>
+            <label for="">For example: Class 2015- <br>2016</label><br>
+            <label for="">Student's DoB*</label>
+            <input type="date" style="padding: 0px 100px;"><br>
+            <label for="">Parent/Guardian <br>Name</label>
+            <input type="text" placeholder="Fast">
+            <input type="text" placeholder="Last">
+            <br><br>
+            <label for="">Current Address</label>
+            <input type="text" style="padding: 0px 100px;">
+        </form> -->
+
+        <div class="raaper">
+            <div class="wrp">
+                <table>
+                    <form action="">
+                        <tr>
+                            <td>Student Nmae</td>
+                            <td><input type="text" placeholder="Fast"></td>
+                            <td><input type="text" placeholder="Last"></td>
+                        </tr>
+                        <tr>
+                            <td>Class you want to <br>apply for</td>
+                            <td colspan="3"><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Student's DoB*</td>
+                            <td colspan="3"><input type="date"></td>
+                        </tr>
+                        <tr>
+                            <td>Parent/Guardian <br> Name*</td>
+                            <td colspan=""><input type="text" placeholder="Fast"> 
+                            <td colspan=""><input type="text" placeholder="Last"> 
+                        </tr>
+                        <tr>
+                            <td>Current Address</td>
+                            <td colspan=""><input type="text" placeholder="Street Address">
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="text" placeholder="Street address line 2"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="text" placeholder="city"></td>
+                            <td><input type="text" placeholder="region"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="text" placeholder="Post Code"></td>
+                            <td><select name="" id="" aria-placeholder="Select Country">
+                                <option value="">Country</option>
+                                <option value="">Bangladesh</option>
+                                <option value="">India</option>
+                                <option value="">Pakistan</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>phone</td>
+                            <td><input type="text" placeholder="##########"></td>
+                        </tr>
+                        <tr>
+                            <td>phone</td>
+                            <td><input type="email" placeholder="Email"></td>
+                        </tr>
+                        <tr>
+                            <td>phone</td>
+                            <td><input type="email" placeholder="Email"></td>
+                        </tr>
+                        <tr class="vv">
+                            <td>What's Ypur Favaret color</td>
+                            <td>
+                            <input type="radio" name="color">
+                            <label for="red">Red</label>
+                            <input type="radio" name="color">
+                            <label for="blue">Bule</label>
+                            <input type="radio" name="color">
+                            <label for="black">Bule</label>
+                            </td>
+                        </tr>
+                        <tr class="ss"></tr>
+                            <td colspan="5"><input type="submit" value="SEND APPLYCATION"></td>
+                        </tr>
+                    </form>
+                </table>
+            </div>
+        </div>
+</body>
+</html>
